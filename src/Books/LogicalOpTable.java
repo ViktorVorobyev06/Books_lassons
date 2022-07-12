@@ -1,27 +1,29 @@
+package Books;
+
 public class LogicalOpTable {
     public static void main(String[] args) {
-        int p,q;
+        boolean p,q;
 
 
         System.out.println("P\t\tQ\t\tAND\t\tOR\t\tXOR\t\tNOT");
 
-        p= 1; q=1;
+        p= true; q=true;
         System.out.print(p+"\t"+q+"\t");
         System.out.print((p&q)+"\t"+(p|q)+"\t");
         System.out.println((p^q)+"\t"+(!p));
 
-        p=1; q=0;
+        p=true; q=false;
         System.out.print(p+"\t"+q+"\t");
         System.out.print((p&q)+"\t"+(p|q)+"\t");
         System.out.println((p^q)+"\t"+(!p));
 
-        p=0;q=1;
+        p=false;q=true;
         System.out.print(p+"\t"+q+"\t");
         System.out.print((p&q)+"\t"+(p|q)+"\t");
         System.out.println((p^q)+"\t"+(!p));
 
 
-        p=0;q=0;
+        p=false;q=false;
         System.out.print(p+"\t"+q+"\t");
         System.out.print((p&q)+"\t"+(p|q)+"\t");
         System.out.println((p^q)+"\t"+(!p));
