@@ -3,6 +3,7 @@ package VideoSource.Lesson8;
 public class Car {
     String color="Blue";
     String engine="V6";
+    public Car(){}
 }
 class Human{
     String name="Ivan";
