@@ -19,9 +19,9 @@ class Lesson8_Work {
         System.out.println("Длина окружности: "+dlina_ok(r));
     }
 
-    static int proiz(int a, int b) {
-        System.out.println("Произведение двух чисел: " + a * b);
-        return a * b;
+    static int proiz(int a, int b,int c) {
+        System.out.println("Произведение двух чисел: " + a * b*c);
+        return a * b*c;
     }
 
     static void delen(double a, double b) {
@@ -32,7 +32,7 @@ class Lesson8_Work {
 
 public class Lesson8_HomeWork {
     public static void main(String[] args) {
-        // Lesson8_Work.proiz(12,4);
+        // Lesson8_Work.proiz(12,4,23);
         // Lesson8_Work.delen(12,5);
 
         Lesson8_Work pl = new Lesson8_Work();
